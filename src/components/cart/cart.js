@@ -20,7 +20,7 @@ function Cart() {
 
   const discountedTotal = cartTotal - discount;
 
-  if (isEmpty)
+  if (!isEmpty)
     return (
       <div>
         <Header />{" "}
